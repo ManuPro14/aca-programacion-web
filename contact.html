@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Café Aroma</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navegación -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <h1>☕ Café Aroma</h1>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="gallery.html">Galería</a></li>
+          <li><a href="contact.html" class="active">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Encabezado de la página -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para servirte</p>
+      </div>
+    </section>
+
+    <!-- Sección de Información de Contacto -->
+    <section class="contact-info">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <h3>Ubicación</h3>
+            <p>Calle Principal #123</p>
+            <p>Bogotá, Colombia</p>
+            <p>Barrio Chapinero</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h3>Teléfono</h3>
+            <p>+57 300 123 4567</p>
+            <p>+57 1 234 5678</p>
+            <p>Lun-Vie: 7AM - 8PM</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <h3>Email</h3>
+            <p>info@cafearoma.com</p>
+            <p>ventas@cafearoma.com</p>
+            <p>Respuesta en 24 horas</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🕐</div>
+            <h3>Horarios</h3>
+            <p>Lun-Vie: 7AM - 8PM</p>
+            <p>Sáb-Dom: 8AM - 9PM</p>
+            <p>Festivos: 9AM - 6PM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="form-content">
+          <div class="form-text">
+            <h2>Envíanos un Mensaje</h2>
+            <p>
+              ¿Tienes alguna pregunta, sugerencia o comentario? Completa el
+              formulario y nos pondremos en contacto contigo lo antes posible.
+            </p>
+            <div class="form-features">
+              <div class="feature-item">
+                <span class="check-icon">✓</span>
+                <p>Respuesta rápida garantizada</p>
+              </div>
+              <div class="feature-item">
+                <span class="check-icon">✓</span>
+                <p>Atención personalizada</p>
+              </div>
+              <div class="feature-item">
+                <span class="check-icon">✓</span>
+                <p>Servicio al cliente 24/7</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-container">
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Nombre Completo *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="tu@email.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+57 300 123 4567"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Asunto *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Selecciona un asunto</option>
+                  <option value="consulta">Consulta General</option>
+                  <option value="reservacion">Reservación</option>
+                  <option value="evento">Eventos Especiales</option>
+                  <option value="catering">Servicio de Catering</option>
+                  <option value="sugerencia">Sugerencia</option>
+                  <option value="queja">Queja</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  rows="5"
+                  placeholder="Escribe tu mensaje aquí..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn submit-btn">
+                Enviar Mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Mapa -->
+    <section class="map-section">
+      <div class="container">
+        <h2 class="section-title">Encuéntranos</h2>
+        <div class="map-container">
+          <div class="map-placeholder">
+            <div class="map-content">
+              <span class="map-icon">🗺️</span>
+              <h3>Mapa de Ubicación</h3>
+              <p>Calle Principal #123, Bogotá</p>
+              <p>Barrio Chapinero</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section class="social-section">
+      <div class="container">
+        <h2 class="section-title">Síguenos en Redes Sociales</h2>
+        <p class="social-text">
+          Mantente al día con nuestras novedades, promociones y eventos
+          especiales
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link facebook">
+            <span class="social-icon">f</span>
+            <span>Facebook</span>
+          </a>
+          <a href="#" class="social-link instagram">
+            <span class="social-icon">📷</span>
+            <span>Instagram</span>
+          </a>
+          <a href="#" class="social-link twitter">
+            <span class="social-icon">🐦</span>
+            <span>Twitter</span>
+          </a>
+          <a href="#" class="social-link whatsapp">
+            <span class="social-icon">💬</span>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>¿Hacen reservaciones?</h3>
+            <p>
+              Sí, aceptamos reservaciones para grupos de 6 o más personas.
+              Contáctanos con anticipación.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Ofrecen servicio de catering?</h3>
+            <p>
+              Sí, ofrecemos catering para eventos corporativos y sociales.
+              Consulta nuestros paquetes.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Tienen opciones veganas?</h3>
+            <p>
+              Absolutamente. Contamos con leches vegetales y opciones de
+              repostería vegana.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Aceptan mascotas?</h3>
+            <p>
+              Sí, nuestra terraza exterior es pet-friendly. ¡Trae a tu mejor
+              amigo!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Café Aroma</h3>
+            <p>La mejor experiencia de café artesanal en la ciudad.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="about.html">Nosotros</a></li>
+              <li><a href="menu.html">Menú</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>📍 Calle Principal #123</p>
+            <p>📞 +57 300 123 4567</p>
+            <p>✉️ info@cafearoma.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Café Aroma. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
